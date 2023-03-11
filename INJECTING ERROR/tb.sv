@@ -11,7 +11,7 @@ virtual function transaction copy();
 copy=new();
 copy.a=this.a;
 copy.b=this.b;
-copy.sm=this.sum;
+copy.sum=this.sum;
 endfunction
 
 endclass
